@@ -4,8 +4,8 @@ import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
-const SOURCE_NAME = "molten-chocolate-lava-cake.jpg";
-const EXPECTED_DIGEST = "771a9caad97685af165687808af86d4a21fe386442159d170c2f9a1ef7d5bf16";
+const SOURCE_NAME = "pugliese-burrata-heirloom-tomatoes.jpg";
+const EXPECTED_DIGEST = "9f0c3f94c01fe46a4fd4939d4be9e70c8c046decdd074d474345364eb23a34c5";
 const MAX_PAYLOAD_BYTES = 1048576;
 const MAX_PIXEL_DIM = 1024;
 
@@ -58,7 +58,7 @@ function scanJpegDimensions(buf: Buffer): { width: number; height: number } {
 function verifyDishAsset(assetPath: string): { payload: Buffer; metrics: ImageMetrics } {
   const payload = readFileSync(assetPath);
   if (payload.length === 0 || payload.length > MAX_PAYLOAD_BYTES) {
-    throw new Error(`Asset byte size ${payload.length} out of bounds`);
+    throw new Error(`Asset byte size ${payload.length} out of bounds (1..${MAX_PAYLOAD_BYTES})`);
   }
   const digest = createHash("sha256").update(payload).digest("hex");
   if (digest !== EXPECTED_DIGEST) {

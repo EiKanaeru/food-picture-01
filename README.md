@@ -1,8 +1,9 @@
-# food-picture-01 — Decadent Molten Chocolate Lava Cake with Warm Fudge Center and Madagascar Vanilla Gelato
+# food-picture-01 — Fresh Pugliese Burrata di Bufala with Heirloom Tomatoes & Dark Green EVOO
 
-High-aesthetic, photorealistic culinary photograph for make.fun competition food-picture-01.
+Michelin-grade ultra-photorealistic macro culinary photograph for make.fun competition food-picture-01.
 
-- **Dish**: Decadent Molten Chocolate Lava Cake with Warm Fudge Center and Madagascar Vanilla Gelato
+- **Cuisine**: Italian Mediterranean
+- **Dish**: Fresh Pugliese Burrata di Bufala with Heirloom Tomatoes & Dark Green EVOO
 - **Resolution**: 1024x1024
-- **Format**: JPEG (high efficiency, color-optimized)
-- **Asset**: `molten-chocolate-lava-cake.jpg`
+- **Format**: JPEG (color-optimized macro)
+- **Asset**: `pugliese-burrata-heirloom-tomatoes.jpg`
