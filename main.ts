@@ -4,8 +4,8 @@ import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
-const SOURCE_NAME = "pugliese-burrata-heirloom-tomatoes.jpg";
-const EXPECTED_DIGEST = "9f0c3f94c01fe46a4fd4939d4be9e70c8c046decdd074d474345364eb23a34c5";
+const SOURCE_NAME = "kyoto-slate-tonkotsu-ramen.jpg";
+const EXPECTED_DIGEST = "828b8c991b947d85062e3abe794fd7cf8b60836893e98b6f419c18e9ac0e9b78";
 const MAX_PAYLOAD_BYTES = 1048576;
 const MAX_PIXEL_DIM = 1024;
 
